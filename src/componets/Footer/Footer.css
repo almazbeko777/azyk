@@ -1,0 +1,61 @@
+#footer {
+  background: black;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col-cards {
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.colon1 h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.colon2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.colon1 {
+  margin-top: 10px;
+}
+.col-inp input {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.col-inp button {
+  width: 80px;
+  height: 40px;
+  background: rgb(127, 173, 57);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.foot-svg {
+  overflow: hidden;
+  background: rgb(247, 247, 247);
+}
+.foot-svg1 {
+  fill: #4e8b43;
+  width: 100%;
+  height: 50px;
+  transform: rotate(180deg) scaleX(-1);
+}
